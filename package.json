@@ -1,0 +1,35 @@
+{
+  "name": "deepserve-react",
+  "version": "0.0.1",
+  "description": "React.js client SDK for Deepserve.ai",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run test:jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepserve/deepserve-react.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "machine",
+    "learning",
+    "deep",
+    "learning",
+    "deepserve",
+    "deepserve.ai",
+    "prediction",
+    "inference"
+  ],
+  "author": "Jeff Wells",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepserve/deepserve-react/issues"
+  },
+  "homepage": "https://github.com/deepserve/deepserve-react#readme"
+}
