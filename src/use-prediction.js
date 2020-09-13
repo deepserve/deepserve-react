@@ -18,8 +18,6 @@ const HEADERS = {
   'X-DEEPSERVE-API-VERSION': REACT_APP_DEEPSERVE_API_VERSION
 }
 
-console.log('process.env', process.env, REACT_APP_DEEPSERVE_API_KEY)
-
 export const usePrediction = (project, data) => {
   const [prediction, setPrediction] = useState(null);
   const [loading, setLoading] = useState(null);
@@ -40,7 +38,6 @@ export const usePrediction = (project, data) => {
       })
       .then(res => res.json())
       .then(({ input, output, meta, error }) => {
-        console.log('res', input, output, meta, error);
         setPrediction(output);
         setMeta(meta);
         setLoading(false);
