@@ -1,6 +1,6 @@
 {
   "name": "deepserve-react",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "React.js client SDK for Deepserve.ai",
   "main": "index.js",
   "directories": {
