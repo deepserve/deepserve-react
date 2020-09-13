@@ -6,7 +6,7 @@ const DEFAULT_JSON_HEADERS = {
 };
 
 const DEFAULT_METHOD = 'POST';
-const BASE_URL = 'http://local.deepserveapi.com:3000';
+const BASE_URL = 'http://api.deepserve.ai';
 
 const json = JSON.stringify;
 
